@@ -1,3 +1,7 @@
+% Author: Mario Frakulla
+% Simple GUI to practice the use of buttondownfcn, 
+%uicontextmenus, etc
+
 function paint_GUI()
 
     S.fig = figure('Name', 'Paint', 'menubar', 'none', 'resize', 'off', 'position', [500, 300, 400, 400]); 
